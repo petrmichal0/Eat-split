@@ -9,7 +9,7 @@ import FriendList from "./components/FriendList";
 function App() {
   const [showAddFriend, setShowAddFriend] = useState(false);
   const [friends, setFriends] = useState(data);
-  const [selectedFriend, setSelectedFriend] = useState(null);
+  const [selectedFriend, setSelectedFriend] = useState("");
 
   function handleShowAddFriend() {
     setShowAddFriend((showAddFriend) => !showAddFriend);
@@ -21,7 +21,7 @@ function App() {
   }
 
   function handleSelection(friend) {
-    setSelectedFriend((cur) => (cur?.id === friend.id ? null : friend));
+    setSelectedFriend((cur) => (cur.id === friend.id ? "" : friend));
     setShowAddFriend(false);
   }
 
@@ -34,7 +34,7 @@ function App() {
       )
     );
 
-    setSelectedFriend(null);
+    setSelectedFriend("");
   }
 
   return (

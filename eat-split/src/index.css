@@ -94,11 +94,6 @@ body {
   grid-column: 3;
 }
 
-.sidebar > .button {
-  float: right;
-  margin-right: 1.2rem;
-}
-
 .green {
   color: #66a80f;
 }
@@ -118,7 +113,7 @@ form {
 }
 
 .form-add-friend {
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 18rem;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
@@ -132,7 +127,6 @@ label {
 }
 
 label::first-letter {
-  display: inline-block;
   margin-right: 4px;
   font-size: 1.8rem;
 }

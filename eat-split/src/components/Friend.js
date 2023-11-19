@@ -3,7 +3,7 @@ import Button from "../components/Button";
 function Friend({ friend, onSelection, selectedFriend }) {
   const { image, name, balance, id } = friend;
 
-  const isSelected = selectedFriend?.id === id;
+  const isSelected = selectedFriend.id === id;
 
   return (
     <li className={isSelected ? "selected" : ""}>
