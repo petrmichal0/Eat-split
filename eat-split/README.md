@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Eat-split
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Title and Description
+Eat-split is a web application that helps users split bills among friends easily and fairly. Users can input their expenses and the application will calculate the share for each person.
 
-## Available Scripts
+## Badges
+![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
-In the project directory, you can run:
+## Quick Look
+<img src="https://github.com/user-attachments/assets/ac6429b7-525a-4f1a-bdab-03352e1caa2e" width="700" alt="Eat-split App Demo">
 
-### `npm start`
+## Table of Content
+- [Project Title and Description](#project-title-and-description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Demo (link)](#demo-link)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Third-Party Libraries](#third-party-libraries)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Split bills among friends
+- Calculate share for each person
+- User-friendly interface
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
+- Node.js (v12 or higher)
+- npm (v6 or higher)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
 
-### `npm run build`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/petrmichal0/Eat-split.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+    ```bash
+    cd eat-split
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+To start the application, run the following command:
+```bash
+npm start
+```
+After starting, go to [http://localhost:3000](http://localhost:3000) in your web browser.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<table>
+  <tr>
+    <th>Homepage</th>
+    <th>Bill Split Interface</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/b464029c-7f6e-4651-a7ff-149ad6e43268" width="300" height="300" alt="Homepage">
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/7c38712a-9098-4004-9aed-e1b6bbd0a4cb" width="300" height="300" alt="Bill Split Interface">
+    </td>
+  </tr>
+</table>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo (link)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Check out the live demo of the application [here](https://billsplitfriends.netlify.app/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+```css
+eat-split/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── App.js
+│   │   ├── data.js
+│   │   ├── index.css
+│   │   ├── index.js
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
 
-### Code Splitting
+## Third-Party Libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* React Router
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
